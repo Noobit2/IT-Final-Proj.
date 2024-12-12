@@ -1,1 +1,36 @@
-# IT-Final-Proj.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Report</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Breaking News</h1>
+        <p>Your Latest News Source</p>
+    </header>
+
+    <main>
+        <article>
+            <h2>Headline News</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <img src="news-image.jpg" alt="News Image">
+        </article>
+
+        <section>
+            <h3>Other News</h3>
+            <ul>
+                <li><a href="#">News 1</a></li>
+                <li><a href="#">News 2</a></li>
+                <li><a href="#">News 3</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your News Website</p>
+    </footer>
+</body>
+</html>
