@@ -1,36 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News Report</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Breaking News</h1>
-        <p>Your Latest News Source</p>
-    </header>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-    <main>
-        <article>
-            <h2>Headline News</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <img src="news-image.jpg" alt="News Image">
-        </article>
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
 
-        <section>
-            <h3>Other News</h3>
-            <ul>
-                <li><a href="#">News 1</a></li>
-                <li><a href="#">News 2</a></li>
-                <li><a href="#">News 3</a></li>
-            </ul>
-        </section>
-    </main>
+main {
+    padding: 20px;
+}
 
-    <footer>
-        <p>&copy; 2023 Your News Website</p>
-    </footer>
-</body>
-</html>
+article {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+article img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
